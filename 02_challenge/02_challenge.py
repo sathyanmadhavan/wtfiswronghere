@@ -9,6 +9,9 @@ For all integers between 1 and 99 (include both):
     # print fizzbuzz for multiples of 3 and 5"
 """
 
+from tarfile import PAX_NUMBER_FIELDS
+
+
 def fizzbuzz(max_num):
     "This method implements FizzBuzz"
     # Google for 'range in python' to see what it does
@@ -23,4 +26,4 @@ def fizzbuzz(max_num):
 
 #----START OF SCRIPT
 if __name__=='__main__':
-    fizzbuzz()
+    fizzbuzz(100)
